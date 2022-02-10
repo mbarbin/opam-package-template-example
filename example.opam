@@ -1,12 +1,12 @@
 opam-version: "2.0"
-synopsis: "An example using opam-package-template"
-description: "An example using opam-package-template"
+synopsis: "An example made with opam-package-template"
+description: "An example made with opam-package-template"
 maintainer: "Mathieu Barbin"
 authors: "Mathieu Barbin"
 license: "MIT"
-homepage: "https://github.com/mbarbin/example"
+homepage: "https://github.com/mbarbin/opam-package-template-example"
 doc: "https://github.com/mbarbin/example"
-bug-reports: "https://github.com/mbarbin/example/issues"
+bug-reports: "https://github.com/mbarbin/opam-package-template-example/issues"
 depends: [
   "ocaml" {>= "4.09.0"}
   "dune" {>= "2.0.0"}
@@ -20,4 +20,4 @@ build: [
   ["dune" "build" "-p" name "-j" jobs]
   ["dune" "runtest" "-p" name "-j" jobs] {with-test}
 ]
-dev-repo: "git+https://github.com/mbarbin/example.git"
+dev-repo: "git+https://github.com/mbarbin/opam-package-template-example.git"
