@@ -1,5 +1,4 @@
-open! Base
-
-(** Hello odoc. *)
+open! Core
 
 val hello_world : Sexp.t
+val main : Command.t
