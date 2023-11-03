@@ -1,6 +1,6 @@
 (lang dune 3.11)
 
-(name example)
+(name opam-package-template-example)
 
 (generate_opam_files)
 
@@ -13,11 +13,10 @@
 (source
  (github mbarbin/opam-package-template-example))
 
-(documentation
- "https://mbarbin.github.io/opam-package-template-example/")
+(documentation "https://mbarbin.github.io/opam-package-template-example/")
 
 (package
- (name example)
+ (name opam-package-template-example)
  (synopsis "An example made with opam-package-template")
  (description "An example made with opam-package-template")
  (depends
