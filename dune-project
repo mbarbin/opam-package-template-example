@@ -1,4 +1,4 @@
-(lang dune 3.11)
+(lang dune 3.12)
 
 (name opam-package-template-example)
 
@@ -23,7 +23,7 @@
   (ocaml
    (>= 5.1))
   (dune
-   (>= 3.11))
+   (>= 3.12))
   (base
    (and
     (>= v0.16)
