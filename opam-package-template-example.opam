@@ -9,8 +9,8 @@ doc: "https://mbarbin.github.io/opam-package-template-example/"
 bug-reports:
   "https://github.com/mbarbin/opam-package-template-example/issues"
 depends: [
+  "dune" {>= "3.12"}
   "ocaml" {>= "5.1"}
-  "dune" {>= "3.12" & >= "3.12"}
   "base" {>= "v0.16" & < "v0.17"}
   "command-unix-for-opam" {>= "0.0.1"}
   "core" {>= "v0.16" & < "v0.17"}
