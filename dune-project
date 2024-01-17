@@ -18,7 +18,6 @@
 (package
  (name opam-package-template-example)
  (synopsis "An example made with opam-package-template")
- (description "An example made with opam-package-template")
  (depends
   (ocaml
    (>= 5.1))

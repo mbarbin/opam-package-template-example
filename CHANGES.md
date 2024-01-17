@@ -3,7 +3,7 @@
 ### Changed
 
 - Add `:standard` flags to libraries and executables.
-- Update default warning spec, disable @45.
+- Update default warning spec, disable @45, @48.
 
 ## 0.0.1 (2023-11-03)
 
