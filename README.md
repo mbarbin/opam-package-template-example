@@ -6,3 +6,8 @@ This is an empty project made with [opam-package-template](https://github.com/mb
 
 The purpose of having this repo hosted in github is to exercise and test the
 actions in the [`.github/workflows/`](.github/workflows/) directory.
+
+## Code documentation
+
+The code documentation of the latest release is built with `odoc` and published
+to `GitHub` pages [here](https://mbarbin.github.io/opam-package-template-example).
