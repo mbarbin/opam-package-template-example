@@ -1,7 +1,6 @@
 # example
 
 [![CI Status](https://github.com/mbarbin/opam-package-template-example/workflows/ci/badge.svg)](https://github.com/mbarbin/opam-package-template-example/actions/workflows/ci.yml)
-[![Deploy odoc Status](https://github.com/mbarbin/opam-package-template-example/workflows/deploy-odoc/badge.svg)](https://github.com/mbarbin/opam-package-template-example/actions/workflows/deploy-odoc.yml)
 
 This is an empty project made with [opam-package-template](https://github.com/mbarbin/opam-package-template).
 

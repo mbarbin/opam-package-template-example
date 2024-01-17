@@ -4,6 +4,7 @@
 
 - Add `:standard` flags to libraries and executables.
 - Update default warning spec, disable @45, @48.
+- Now deploy odoc upon release, using dune-release.
 
 ## 0.0.1 (2023-11-03)
 
