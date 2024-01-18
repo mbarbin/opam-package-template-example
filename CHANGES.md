@@ -1,10 +1,22 @@
-## unreleased
+## 0.0.2 (2024-01-18)
+
+### Added
+
+- Add default link to GitHub pages hosting odoc documentation.
 
 ### Changed
 
 - Add `:standard` flags to libraries and executables.
 - Update default warning spec, disable @45, @48.
 - Now deploy odoc upon release, using dune-release.
+
+### Removed
+
+- Remove package description, it is optional and duplicated synopsis.
+
+### Fixed
+
+- Fix duplication of dune dependency constraint in opam files.
 
 ## 0.0.1 (2023-11-03)
 
