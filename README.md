@@ -1,4 +1,4 @@
-# example
+# opam-package-template-example
 
 [![CI Status](https://github.com/mbarbin/opam-package-template-example/workflows/ci/badge.svg)](https://github.com/mbarbin/opam-package-template-example/actions/workflows/ci.yml)
 
