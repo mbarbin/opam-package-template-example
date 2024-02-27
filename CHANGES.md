@@ -1,3 +1,20 @@
+## 0.0.5 (unreleased)
+
+### Added
+
+### Changed
+
+- List individual ppxs instead of `ppx_jane`.
+
+### Deprecated
+
+### Fixed
+
+### Removed
+
+- Effectively removed all ppxs that are in `ppx_jane` and not explicitly
+  listed.
+
 ## 0.0.4 (2024-02-14)
 
 ### Changed
