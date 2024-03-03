@@ -11,12 +11,8 @@
   -open
   Stdio
   -open
-  Expect_test_helpers_base)
- (libraries
-  base
-  example
-  expect_test_helpers_core.expect_test_helpers_base
-  stdio)
+  Expect_test_helpers)
+ (libraries base example expect-test-helpers stdio)
  (inline_tests)
  (lint
   (pps ppx_js_style -check-doc-comments))
