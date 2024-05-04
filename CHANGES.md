@@ -1,3 +1,19 @@
+## 0.0.6 (unreleased)
+
+### Added
+
+- Check for uncommitted changes in CI.
+
+### Changed
+
+- Upgrade ocamlformat to latest
+
+### Deprecated
+
+### Fixed
+
+### Removed
+
 ## 0.0.5 (2024-03-13)
 
 ### Changed
