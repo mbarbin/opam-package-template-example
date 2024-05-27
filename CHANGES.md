@@ -6,7 +6,8 @@
 
 ### Changed
 
-- Upgrade ocamlformat to latest
+- Upgrade base & etc dependencies to `v0.17`.
+- Upgrade ocamlformat to `0.26.2`.
 
 ### Deprecated
 
