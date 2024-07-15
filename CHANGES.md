@@ -6,6 +6,8 @@
 
 ### Changed
 
+- Upgrade `ocaml` to `5.2`.
+- Upgrade `dune` to `3.16`.
 - Upgrade base & etc dependencies to `v0.17`.
 - Upgrade ocamlformat to `0.26.2`.
 
