@@ -21,6 +21,10 @@
  (depends
   (ocaml
    (>= 5.2))
+  (ocamlformat
+   (and
+    :with-dev-setup
+    (= 0.26.2)))
   (base
    (and
     (>= v0.17)
@@ -28,27 +32,17 @@
   (cmdliner
    (= 1.3.0))
   (commandlang
-   (>= 0.0.1))
-  (commandlang-err
-   (>= 0.0.1))
+   (>= 0.0.2))
   (commandlang-to-cmdliner
-   (>= 0.0.1))
-  (expect-test-helpers
-   (and
-    :with-test
-    (>= v0.17)
-    (< v0.18)))
+   (>= 0.0.2))
+  (err0
+   (>= 0.0.2))
   (ppx_compare
    (and
     (>= v0.17)
     (< v0.18)))
   (ppx_enumerate
    (and
-    (>= v0.17)
-    (< v0.18)))
-  (ppx_expect
-   (and
-    :with-test
     (>= v0.17)
     (< v0.18)))
   (ppx_hash
@@ -61,7 +55,7 @@
     (< v0.18)))
   (ppx_js_style
    (and
-    :dev
+    :with-dev-setup
     (>= v0.17)
     (< v0.18)))
   (ppx_let
@@ -82,3 +76,77 @@
    (and
     (>= v0.17)
     (< v0.18)))))
+
+(package
+ (name opam-package-template-example-tests)
+ (synopsis "Tests for opam-package-template")
+ (depends
+  (ocaml
+   (>= 5.2))
+  (ocamlformat
+   (and
+    :with-dev-setup
+    (= 0.26.2)))
+  (base
+   (and
+    (>= v0.17)
+    (< v0.18)))
+  (cmdliner
+   (= 1.3.0))
+  (commandlang
+   (>= 0.0.2))
+  (commandlang-to-cmdliner
+   (>= 0.0.2))
+  (err0
+   (>= 0.0.2))
+  (expect_test_helpers_core
+   (and
+    (>= v0.17)
+    (< v0.18)))
+  (ppx_compare
+   (and
+    (>= v0.17)
+    (< v0.18)))
+  (ppx_enumerate
+   (and
+    (>= v0.17)
+    (< v0.18)))
+  (ppx_expect
+   (and
+    (>= v0.17)
+    (< v0.18)))
+  (ppx_hash
+   (and
+    (>= v0.17)
+    (< v0.18)))
+  (ppx_here
+   (and
+    (>= v0.17)
+    (< v0.18)))
+  (ppx_js_style
+   (and
+    :with-dev-setup
+    (>= v0.17)
+    (< v0.18)))
+  (ppx_let
+   (and
+    (>= v0.17)
+    (< v0.18)))
+  (ppx_sexp_conv
+   (and
+    (>= v0.17)
+    (< v0.18)))
+  (ppx_sexp_value
+   (and
+    (>= v0.17)
+    (< v0.18)))
+  (ppxlib
+   (>= 0.33))
+  (stdio
+   (and
+    (>= v0.17)
+    (< v0.18)))
+  (sherlodoc
+   (and
+    :with-doc
+    (>= 0.2)))))
