@@ -1,3 +1,18 @@
+## 0.0.8 (unreleased)
+
+### Changed
+
+- Use `:with-dev-setup` for lints, instrumentation & ocamlformat.
+
+## 0.0.7 (2024-08-22)
+
+### Changed
+
+- Use `expect_test_helpers_base`.
+- Split test package.
+- Switch to `commandlang` for commands.
+- Enable `-unused-code-warnings=force` in ppx.
+
 ## 0.0.6 (2024-07-26)
 
 ### Added
