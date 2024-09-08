@@ -1,7 +1,8 @@
-## 0.0.8 (unreleased)
+## 0.0.8 (2024-09-08)
 
 ### Changed
 
+- Keep `:with-dev-setup` dependencies only in the test package.
 - Use `:with-dev-setup` for lints, instrumentation & ocamlformat.
 
 ## 0.0.7 (2024-08-22)
@@ -10,7 +11,7 @@
 
 - Use `expect_test_helpers_base`.
 - Split test package.
-- Switch to `commandlang` for commands.
+- Switch to `cmdlang` for commands.
 - Enable `-unused-code-warnings=force` in ppx.
 
 ## 0.0.6 (2024-07-26)
