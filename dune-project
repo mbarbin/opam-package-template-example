@@ -32,7 +32,7 @@
   (cmdlang-to-cmdliner
    (>= 0.0.5))
   (cmdliner
-   (= 1.3.0))
+   (>= 1.3.0))
   (err
    (>= 0.0.5))
   (ppx_compare
@@ -91,7 +91,7 @@
   (cmdlang-to-cmdliner
    (>= 0.0.5))
   (cmdliner
-   (= 1.3.0))
+   (>= 1.3.0))
   (err
    (>= 0.0.5))
   (expect_test_helpers_core
