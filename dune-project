@@ -33,8 +33,8 @@
    (>= 0.0.5))
   (cmdliner
    (>= 1.3.0))
-  (err
-   (>= 0.0.5))
+  (pp-log
+   (>= 0.0.1))
   (ppx_compare
    (and
     (>= v0.17)
@@ -92,12 +92,12 @@
    (>= 0.0.5))
   (cmdliner
    (>= 1.3.0))
-  (err
-   (>= 0.0.5))
   (expect_test_helpers_core
    (and
     (>= v0.17)
     (< v0.18)))
+  (pp-log
+   (>= 0.0.1))
   (ppx_compare
    (and
     (>= v0.17)
