@@ -15,6 +15,8 @@
 
 (documentation "https://mbarbin.github.io/opam-package-template-example/")
 
+(implicit_transitive_deps false)
+
 (package
  (name opam-package-template-example)
  (synopsis "An example made with opam-package-template")
