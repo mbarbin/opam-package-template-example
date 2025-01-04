@@ -98,6 +98,8 @@
    (and
     (>= v0.17)
     (< v0.18)))
+  (opam-package-template-example
+   (= :version))
   (pp-log
    (>= 0.0.8))
   (ppx_compare
