@@ -2,13 +2,24 @@
 
 ### Added
 
+- Use opam template files to add description, tags, and x-maintenance-intent.
+
 ### Changed
 
+- Upgrade to `cmdlang.0.0.9`.
+- Disallow implicit transitive dependencies.
+- Upgrade dune lang to `3.17`.
+- Add `pp_log` dependency.
+- Fmt CI files.
+- Upgrade ocamlformat to `0.27.0`.
 - Upgrade to `cmdlang.0.0.5`.
 
 ### Deprecated
 
 ### Fixed
+
+- Add maintainer email (opam CI check).
+- Dedup CI jobs on pull-requests.
 
 ### Removed
 
