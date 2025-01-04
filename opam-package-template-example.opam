@@ -43,3 +43,12 @@ build: [
   ]
 ]
 dev-repo: "git+https://github.com/mbarbin/opam-package-template-example.git"
+description: """\
+
+A longer description for the package.
+
+It can span multiple lines!
+
+"""
+tags: [ "this" "that" ]
+x-maintenance-intent: [ "(latest)" ]
