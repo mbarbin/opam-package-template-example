@@ -18,6 +18,7 @@
 
 ### Fixed
 
+- Add missing main pkg dependency in test pkg.
 - Add maintainer email (opam CI check).
 - Dedup CI jobs on pull-requests.
 
