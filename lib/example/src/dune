@@ -1,6 +1,6 @@
 (library
  (name example)
- (public_name opam-package-template-example.example)
+ (public_name example)
  (flags
   :standard
   -w

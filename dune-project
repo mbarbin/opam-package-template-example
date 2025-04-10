@@ -1,6 +1,6 @@
 (lang dune 3.17)
 
-(name opam-package-template-example)
+(name example)
 
 (generate_opam_files)
 
@@ -18,7 +18,7 @@
 (implicit_transitive_deps false)
 
 (package
- (name opam-package-template-example)
+ (name example)
  (synopsis "An example made with opam-package-template")
  (depends
   (ocaml
@@ -67,7 +67,7 @@
     (< v0.18)))))
 
 (package
- (name opam-package-template-example-tests)
+ (name example-tests)
  (synopsis "Tests for opam-package-template")
  (depends
   (ocaml
@@ -86,7 +86,7 @@
    (and
     (>= v0.17)
     (< v0.18)))
-  (opam-package-template-example
+  (example
    (= :version))
   (pplumbing
    (>= 0.0.9))
@@ -139,7 +139,7 @@
     (>= 0.2)))))
 
 (package
- (name opam-package-template-example-dev)
+ (name example-dev)
  (synopsis
   "Package to regroup dev targets for the project, documentation, and more")
  (allow_empty) ; In case the package is wip or attached to stanzas that dune doesn't see.
@@ -160,9 +160,9 @@
    (and
     (>= v0.17)
     (< v0.18)))
-  (opam-package-template-example
+  (example
    (= :version))
-  (opam-package-template-example-tests
+  (example-tests
    (= :version))
   (pplumbing
    (>= 0.0.9))
