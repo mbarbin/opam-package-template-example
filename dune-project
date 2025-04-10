@@ -82,12 +82,12 @@
     (< v0.18)))
   (cmdlang
    (>= 0.0.9))
+  (example
+   (= :version))
   (expect_test_helpers_core
    (and
     (>= v0.17)
     (< v0.18)))
-  (example
-   (= :version))
   (pplumbing
    (>= 0.0.9))
   (ppx_compare
@@ -156,14 +156,14 @@
     (< v0.18)))
   (cmdlang
    (>= 0.0.9))
-  (expect_test_helpers_core
-   (and
-    (>= v0.17)
-    (< v0.18)))
   (example
    (= :version))
   (example-tests
    (= :version))
+  (expect_test_helpers_core
+   (and
+    (>= v0.17)
+    (< v0.18)))
   (pplumbing
    (>= 0.0.9))
   (ppx_compare
