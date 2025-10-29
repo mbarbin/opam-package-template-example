@@ -54,10 +54,6 @@
  (depends
   (ocaml
    (>= 5.2))
-  (ocamlformat
-   (and
-    :with-dev-setup
-    (= 0.28.1)))
   (base
    (>= v0.17))
   (cmdlang
@@ -78,10 +74,6 @@
    (>= v0.17))
   (ppx_here
    (>= v0.17))
-  (ppx_js_style
-   (and
-    :with-dev-setup
-    (>= v0.17)))
   (ppx_let
    (>= v0.17))
   (ppx_sexp_conv
@@ -91,24 +83,17 @@
   (ppxlib
    (>= 0.33))
   (stdio
-   (>= v0.17))
-  (sherlodoc
-   (and
-    :with-doc
-    (>= 0.2)))))
+   (>= v0.17))))
 
 (package
  (name example-dev)
- (synopsis
-  "Package to regroup dev targets for the project, documentation, and more")
- (allow_empty) ; In case the package is wip or attached to stanzas that dune doesn't see.
+ (synopsis "Package to regroup dev targets, documentation, and more")
+ (allow_empty)
  (depends
   (ocaml
    (>= 5.2))
   (ocamlformat
-   (and
-    :with-dev-setup
-    (= 0.28.1)))
+   (= 0.28.1))
   (base
    (>= v0.17))
   (cmdlang
@@ -132,9 +117,7 @@
   (ppx_here
    (>= v0.17))
   (ppx_js_style
-   (and
-    :with-dev-setup
-    (>= v0.17)))
+   (>= v0.17))
   (ppx_let
    (>= v0.17))
   (ppx_sexp_conv
